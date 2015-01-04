@@ -13,7 +13,7 @@
   <meta name="author" content="Ozy Wu-Li - www.ozywuli.com">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title><%= current_page.data.title || "Ozy Wu-Li - Interactive Designer and Developer" %></title>
+  <title>Ozy Wu-Li - Interactive Designer and Developer</title>
 
 
 
@@ -39,7 +39,7 @@
 
 
 
-<%= stylesheet_link_tag "normalize", "all" %>
+<link href="../../css/normalize.css" rel="stylesheet" type="text/css" /><link href="../../css/all.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -47,7 +47,7 @@
 
 
 
-<body class="globals <%= page_classes %>">
+<body class="globals x2012 x2012_01 x2012_01_01">
 
 
 <header class="header">
@@ -60,10 +60,10 @@
   <nav class="nav">
     <ul>
       <li class="nav__item"><a href="portfolio.html" class="nav__link portfolio-active">Portfolio</a></li>
-      <li class="nav__item"><a href="articles.html" class="nav__link articles-active">Articles</a></li>
+      <li class="nav__item"><a href="articles.html" class="nav__link artoc;es-active">Articles</a></li>
       <li class="nav__item"><a href="profile.html" class="nav__link profile-active">Profile</a></li>
       <li class="nav__item"><a href="resources.html" class="nav__link resources-active">Resources</a></li>
-      <li class="nav__item"><a href="photos.html" class="nav__link photos-active">Photos</a></li>
+      <li class="nav__item"><a href="photography.html" class="nav__link photography-active">Photography</a></li>
       <li class="nav__item"><a href="contact.html" class="nav__link contact-active">Contact</a></li>
     </ul>
   </nav>
@@ -77,11 +77,20 @@
 
 <main class="content offset-left offset-top">
 
-<!-- <h1 class="page-title"><%= current_page.data.page %></h1> -->
+<!-- <h1 class="page-title"></h1> -->
 
 
 
-<%= yield %>
+<h1>Archive for
+    Jan  1 2012
+</h1>
+
+
+<ul>
+    <li><a href="/2012/01/01/example-article.html">Example Article</a> <span>Jan  1</span></li>
+</ul>
+
+
 
 </main>
 
@@ -89,7 +98,7 @@
 <footer class="footer offset-left">
 
 <div class="footer__colophon">
-  <p>Framing provided by <a href="http://middlemanapp.com/" target="_blank">Middleman</a>. Set in Roboto, served by Google.</p>
+  <p>Framing provided by <a href="http://middlemanapp.com/" target="_blank">Middleman</a>. Roboto fonts served by Google.</p>
 </div>
 
 <div class="footer__credits">
@@ -123,7 +132,7 @@
 
 
 <!-- #javascript -->
-  <%= javascript_include_tag  "jquery-2.0.3.min", "imagesloaded.min", "isotope.min", "all" %>
+  <script src="../../js/jquery-2.0.3.min.js" type="text/javascript"></script><script src="../../js/imagesloaded.min.js" type="text/javascript"></script><script src="../../js/isotope.min.js" type="text/javascript"></script><script src="../../js/all.js" type="text/javascript"></script>
 <!-- /javascript -->
 
 </html>
