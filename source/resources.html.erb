@@ -1,0 +1,49 @@
+---
+title: Resources | Ozy Wu-Li - Interactive Designer and Developer
+page: Resources
+---
+
+<div class="title-row row">
+  <h1 class="page-title"><%= current_page.data.page %></h1>
+
+  <p>Here you will find a curated collection of tools, tutorials, and readings that I've found helpful in my development as an interactive designer and developer for the web.</p>
+
+</div>
+
+<div class="row">
+
+<p class="italics last-updated">Last Updated: 31 December 2014</p>
+
+</div>
+
+<div class="row">
+
+
+
+
+
+
+
+
+<h3 class="list-title">Tools</h3>
+<ul class="content-list">
+
+  <% data.resources.tools.each do |f| %>
+
+  <li class="content-list__item">
+    <p><%= f.name %></p>
+    <p><%= f.description %></p>
+    <p><a href="<%= f.url %>"><%= f.url %></a></p>
+  </li>
+
+  <% end %>
+
+  </li>
+
+</ul>
+
+
+
+
+
+</div>
