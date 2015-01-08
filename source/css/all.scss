@@ -59,6 +59,10 @@ p {
   border-right: 1px solid $border;
   font-family: $header-font;
 
+  &__logo {
+    width: 120px;
+  }
+
   &__title {
     font-size: 2.2rem;
     font-weight: normal;

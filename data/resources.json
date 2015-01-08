@@ -39,5 +39,43 @@
       "description": "lorem",
       "url": "http://jsfiddle.net/"
     }
+  ],
+  "Plugins and Libraries": [
+    {
+      "title": "Skrollr",
+      "author": "male",
+      "description": "lorem",
+      "url": "Lorem"
+    },
+    {
+      "title": "Velocity",
+      "author": "male",
+      "description": "lorem",
+      "url": "Lorem"
+    },
+    {
+      "title": "Isotope",
+      "author": "male",
+      "description": "lorem",
+      "url": "Lorem"
+    },
+    {
+      "title": "Masonry",
+      "author": "male",
+      "description": "lorem",
+      "url": "Lorem"
+    },
+    {
+      "title": "Enquire",
+      "author": "male",
+      "description": "lorem",
+      "url": "Lorem"
+    },
+    {
+      "title": "Modernizr",
+      "author": "male",
+      "description": "lorem",
+      "url": "Lorem"
+    }
   ]
 }
