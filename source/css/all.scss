@@ -22,6 +22,8 @@ html, body {
   background: $background;
   color: $text;
   font-family: $content-font;
+  font-size: 1.4rem;
+
 
   word-wrap: break-word;
 
@@ -233,7 +235,6 @@ p {
   max-width: 640px;
   margin-bottom: 20px;
   border-bottom: 1px solid $border;
-  font-size: 1.4rem;
 
   &__title {
     margin-bottom: 20px;
@@ -380,6 +381,7 @@ p {
     margin-bottom: 4px;
     padding: 4px 18px;
     border: 1px solid $border;
+    background: #000;
     color: $light-text;
 
     &:hover {
@@ -402,7 +404,10 @@ p {
     width: 100%;
   }
 }
+.portfolio-items {
+  position: relative;
 
+}
 
 
 
@@ -415,6 +420,7 @@ p {
   height: 100px;
   border-top: 1px solid $border;
   padding-top: 20px;
+  font-size: 1.2rem;
 }
 
 
@@ -452,4 +458,35 @@ p {
 }
 .article-date {
   font-size: 1.2rem;
+}
+
+
+.portfolio-item-overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  @include transition(all 200ms ease 0s);
+
+  &__title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 4.2rem;
+    line-height: 1;
+    color: #FFF;
+  }
+}
+.portfolio-items__link:hover > .portfolio-item-overlay {
+  opacity: 1;
+}
+
+
+.article__title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 1;
 }

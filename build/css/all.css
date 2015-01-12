@@ -403,8 +403,9 @@ img {
   font-family: arial, 黑体, 微软雅黑, 宋体, sans-serif; }
 
 /* line 1, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/_shame.scss */
-.index .index-active, .portfolio .portfolio-active, .contact .contact-active, .resources .resources-active, .articles .articles-active, .profile .profile-active, .photography .photography-active {
-  border-right: 1px solid #CBA135; }
+.index .index-active, .portfolio .portfolio-active, .contact .contact-active, .resources .resources-active, .articles .articles-active, .profile .profile-active, .photos .photos-active {
+  border-right: 1px solid #A28102;
+  color: #A28102; }
 
 /* line 11, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 html {
@@ -449,15 +450,18 @@ p {
   border-right: 1px solid #222;
   font-family: "Roboto Condensed", sans-serif; }
   /* line 62, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  .header__logo {
+    width: 120px; }
+  /* line 66, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .header__title {
     font-size: 2.2rem;
     font-weight: normal;
     text-transform: uppercase; }
-  /* line 68, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 72, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .header a {
     color: #FFF; }
 
-/* line 74, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 78, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .home-link {
   display: block;
   margin-right: -1px;
@@ -465,10 +469,10 @@ p {
   border-bottom: 1px solid #222;
   padding: 10px 20px; }
 
-/* line 84, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 88, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .nav__item {
   border-bottom: 1px solid #222; }
-/* line 88, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 92, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .nav__link {
   display: block;
   padding: 10px 20px;
@@ -476,12 +480,12 @@ p {
   margin-right: -1px;
   border-right: 1px solid transparent;
   font-size: 1.4rem; }
-  /* line 96, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 100, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .nav__link:hover {
     border-right: 1px solid #A28102;
     background: #040404; }
 
-/* line 105, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 109, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .nav-close {
   display: block;
   position: absolute;
@@ -490,31 +494,31 @@ p {
   border-top: 1px solid #222;
   padding: 10px 20px; }
 
-/* line 117, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 121, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .logo {
   float: left;
   padding-top: 5px;
   padding-right: 6px;
   border-collapse: separate;
   border-spacing: 1px; }
-  /* line 123, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 127, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .logo td {
     background: #FFF;
     padding: 2px; }
 
-/* line 130, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 134, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .offset-top {
   padding-top: 20px; }
 
-/* line 133, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 137, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .offset-left {
   padding-left: 20px; }
 
 @media all and (min-width: 800px) {
-  /* line 138, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 142, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .offset-left {
     padding-left: 200px; } }
-/* line 146, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 150, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .nav-open {
   display: block;
   position: fixed;
@@ -523,86 +527,86 @@ p {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid #222;
   padding: 5px 10px; }
-  /* line 157, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 161, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .nav-open__name {
     display: inline-block; }
-  /* line 160, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 164, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .nav-open__icon {
     display: inline-block; }
 
-/* line 167, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 171, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .bar {
   width: 20px;
   height: 3px;
   background: #FFF;
   margin-bottom: 2px; }
-  /* line 172, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 176, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .bar:last-of-type {
     margin-bottom: 0px; }
 
 @media all and (min-width: 800px) {
-  /* line 181, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 185, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .header {
     left: 0; }
 
-  /* line 185, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 189, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .nav-open {
     display: none; }
 
-  /* line 188, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 192, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .nav-close {
     display: none; } }
-/* line 196, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 200, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .content {
   min-height: 100%;
   margin-bottom: -100px;
   padding-right: 20px; }
 
-/* line 202, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 206, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .content:after {
   content: " ";
   display: block;
   height: 100px; }
 
-/* line 208, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 212, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .page-title {
   margin-bottom: 10px;
   color: #FFF;
   font-size: 4rem;
   line-height: 1; }
 
-/* line 217, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 221, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .banner p {
   font-size: 2rem;
   color: #FFF; }
 
-/* line 228, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 232, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .row {
   max-width: 640px;
   margin-bottom: 20px;
   border-bottom: 1px solid #222;
   font-size: 1.4rem; }
-  /* line 234, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 238, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .row__title {
     margin-bottom: 20px;
     font-size: 2rem;
     color: #FFF; }
-  /* line 240, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 244, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .row p {
     margin-bottom: 20px; }
-  /* line 245, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 249, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .row .last-updated {
     font-size: 1.2rem; }
 
-/* line 253, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 257, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .title-row {
   padding-bottom: 20px; }
-  /* line 255, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 259, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .title-row p {
     margin-bottom: 0;
     font-size: 1.6rem; }
 
-/* line 262, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 266, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .portfolio-overlay {
   position: absolute;
   width: 100%;
@@ -619,118 +623,123 @@ p {
   -webkit-transition-delay: 0s;
   transition: all 150ms ease 0s; }
 
-/* line 275, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 279, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .featured-work-list {
   margin-bottom: 20px; }
-  /* line 278, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 282, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .featured-work-list__item {
     position: relative;
     margin-bottom: 10px; }
-  /* line 284, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 288, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .featured-work-list__link {
     display: block; }
-    /* line 287, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+    /* line 291, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
     .featured-work-list__link:hover .portfolio-overlay {
       opacity: 1; }
-  /* line 294, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 298, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .featured-work-list__img {
     width: 100%; }
 
-/* line 304, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 308, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .list-title {
   margin-bottom: 20px; }
 
-/* line 307, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 311, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .content-list {
   padding-bottom: 10px;
   list-style: square outside; }
-  /* line 311, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 315, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .content-list p {
     margin-bottom: 0; }
-  /* line 317, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 321, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .content-list__item {
     margin-bottom: 10px;
     list-style: square outside; }
 
-/* line 327, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 331, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .contact-info {
   margin-bottom: 20px; }
-  /* line 331, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 335, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .contact-info__link {
     display: block;
     border: 1px solid #222;
     margin-bottom: 10px;
     padding: 20px; }
-    /* line 337, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+    /* line 341, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
     .contact-info__link:hover {
       border: 1px solid #A28102;
       background: #010101; }
-  /* line 345, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 349, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .contact-info__icon {
     float: left;
     margin-right: 20px; }
-    /* line 348, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+    /* line 352, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
     .contact-info__icon svg {
       fill: #FFF; }
-  /* line 353, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 357, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .contact-info__type {
     display: block;
     font-size: 1.2rem;
     color: #DDD; }
-  /* line 358, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 362, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .contact-info__name {
     font-size: 1.6rem; }
 
-/* line 364, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 368, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .portfolio-options {
   float: left;
   margin-bottom: 20px; }
-  /* line 369, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 373, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .portfolio-options li {
     float: left;
     margin-right: 4px; }
-  /* line 374, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 378, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .portfolio-options__item {
     display: block;
     margin-bottom: 4px;
     padding: 4px 18px;
     border: 1px solid #222;
+    background: #000;
     color: #888; }
-    /* line 381, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+    /* line 386, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
     .portfolio-options__item:hover {
       border: 1px solid #A28102; }
-  /* line 386, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 391, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .portfolio-options .active-filter {
     border: 1px solid #A28102;
     color: #A28102; }
 
-/* line 392, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 397, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .portfolio-items {
   padding-bottom: 10px; }
-  /* line 394, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 399, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .portfolio-items li {
     margin-bottom: 10px; }
-  /* line 397, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 402, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .portfolio-items img {
     width: 100%; }
 
-/* line 405, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 406, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+.portfolio-items {
+  position: relative; }
+
+/* line 413, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .toggle {
   font-size: 1.8rem; }
 
-/* line 410, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 418, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .footer {
   height: 100px;
   border-top: 1px solid #222;
   padding-top: 20px; }
 
-/* line 417, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+/* line 425, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
 .scrolltop {
   display: none;
   position: fixed;
   right: 10px;
   bottom: 10px; }
-  /* line 423, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  /* line 431, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
   .scrolltop__button {
     display: block;
     border: 1px solid #222;
@@ -742,6 +751,45 @@ p {
     line-height: 1;
     font-size: 2.4rem;
     color: #888; }
-    /* line 433, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+    /* line 441, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
     .scrolltop__button:hover {
       border: 1px solid #A28102; }
+
+/* line 449, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+.list-title {
+  font-size: 2rem; }
+
+/* line 454, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+.article-title {
+  font-size: 2rem; }
+
+/* line 457, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+.article-date {
+  font-size: 1.2rem; }
+
+/* line 462, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+.portfolio-item-overlay {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  -moz-transition: all 200ms ease 0s;
+  -o-transition: all 200ms ease 0s;
+  -webkit-transition: all 200ms ease;
+  -webkit-transition-delay: 0s;
+  transition: all 200ms ease 0s; }
+  /* line 472, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+  .portfolio-item-overlay__title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 4.2rem;
+    line-height: 1;
+    color: #FFF; }
+
+/* line 481, c:/wamp/www/personal_projects/personal_website/007_seven/source/css/all.scss */
+.portfolio-items__link:hover > .portfolio-item-overlay {
+  opacity: 1; }
