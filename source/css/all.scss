@@ -396,6 +396,8 @@ p {
 
 }
 .portfolio-items {
+  position: relative;
+
   padding-bottom: 10px;
   li {
     margin-bottom: 10px;
@@ -403,11 +405,9 @@ p {
   img {
     width: 100%;
   }
-}
-.portfolio-items {
-  position: relative;
 
 }
+
 
 
 
@@ -468,13 +468,13 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.85);
-  @include transition(all 200ms ease 0s);
+  border: 1px solid $border;
+  background: rgba(0, 0, 0, 1);
+  @include transition(all 250ms ease 0s);
 
   &__title {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    margin-top: 43px;
+    text-align: center;
     font-size: 4.2rem;
     line-height: 1;
     color: #FFF;
