@@ -65,7 +65,7 @@ $('.js-portfolio-option').click(function() {
   $('.js-portfolio-option').removeClass('active-filter');
   $(this).addClass('active-filter');
 
-  $container.isotope({
+  $container.isotope({  
     filter: selector
   });
 
@@ -97,40 +97,14 @@ $(function() {
 
 
 
-  $scrolltop.on('click', function(e) {
+  $('.scrolltop').on('click', function(e) {
+    console.log(1);
     e.preventDefault();
-    $('body').animate({
-      "scrollTop": 0
+    console.log($('body').scrollTop());
+    $('html, body').animate({
+      scrollTop: "0"
     }, 400);
   });
 
 });
 
-
-
-// $(document).ready(function() {
-
-
-// $('body').fadeIn(1000);
-
-
-
-// $('.nav__link').click(function(event) {
-
-// event.preventDefault();
-
-// newLocation = this.href;
-
-// $('body').fadeOut(1000, newpage);
-
-// });
-
-
-
-// function newpage() {
-
-// window.location = newLocation;
-
-// }
-
-// });
