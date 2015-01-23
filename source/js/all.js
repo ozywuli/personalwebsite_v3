@@ -12,9 +12,7 @@ $(function() {
     $header.animate({
       left: 0
     }, 200)
-    $offsetLeft.animate({
-      paddingLeft: 200
-    }, 200)
+
   })
 
   $navClose.on('click', function(e) {

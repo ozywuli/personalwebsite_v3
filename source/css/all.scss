@@ -61,19 +61,20 @@ p {
   border-right: 1px solid $border;
   font-family: $header-font;
 
+  z-index: 9999;
+
   &__logo {
     width: 120px;
+    border: 1px solid #0A0A0A;
   }
 
   &__title {
+    margin-top: 2px;
     font-size: 2.2rem;
     font-weight: normal;
     text-transform: uppercase;
   }
 
-  a {
-    color: #FFF;
-  }
 
 }
 
@@ -99,6 +100,8 @@ p {
     border-right: 1px solid transparent;
     font-size: 1.4rem;
 
+    color: #FFF;
+
     &:hover {
       border-right: 1px solid $accent-hover;
       background: $background;
@@ -114,15 +117,19 @@ p {
   bottom: 0;
   width: 100%;
   border-top: 1px solid $border;
-  padding: 10px 20px;
+  padding: 5px 10px;
+
+  color: $accent;
 }
 
-
+.toggle {
+  font-size: 1.8rem;
+}
 
 
 .logo {
   float: left;
-  padding-top: 5px;
+  padding-top: 2px;
   padding-right: 6px;
   border-collapse: separate;
   border-spacing: 1px;
@@ -152,10 +159,10 @@ p {
 .nav-open {
   display: block;
   position: fixed;
-  bottom: 10px;
-  left: 10px;
+  bottom: 0;
+  width: 100%;
 
-  background: rgba(0, 0, 0, 0.9);
+  background: #000;
   border: 1px solid $border;
   padding: 5px 10px;
 
@@ -201,14 +208,14 @@ p {
 
 .content {
   min-height: 100%;
-  margin-bottom: -100px;
+  margin-bottom: -120px;
   padding-right: 20px;
 }
 
 .content:after {
   content: " ";
   display: block;
-  height: 100px;
+  height: 120px;
 }
 
 .page-title {
@@ -411,13 +418,9 @@ p {
 
 
 
-.toggle {
-  font-size: 1.8rem;
-}
-
 
 .footer {
-  height: 100px;
+  height: 120px;
   border-top: 1px solid $border;
   padding-top: 20px;
   font-size: 1.2rem;
